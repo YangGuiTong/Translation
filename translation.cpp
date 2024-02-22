@@ -496,6 +496,7 @@ void Translation::on_btnExcelTTs_clicked()
     writeXML(translationExcel);
 }
 
+// ts 转 ts n^3
 void Translation::on_btnTsTTs_clicked()
 {
     ui->labelText->setText("正在转化，请稍等...");
@@ -504,6 +505,7 @@ void Translation::on_btnTsTTs_clicked()
     ui->textEdit->append("未优化：ts转ts完成，请查看 translation_zh_cn_target.ts 文件");
 }
 
+// ts 转 ts n^2
 void Translation::on_btnTsTTs_2_clicked()
 {
     ui->labelText->setText("正在转化，请稍等...");
